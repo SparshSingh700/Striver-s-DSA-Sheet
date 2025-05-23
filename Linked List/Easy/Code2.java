@@ -1,16 +1,21 @@
-//Leetcode 237. Delete Node in a Linked List
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
+//GFG Count Linked List Nodes
+/Complete the function below/
+/*
+class Node{
+    int data;
+    Node next;
+    Node(int a){  data = a; next = null; }
+}*/
+
 class Solution {
-    public void deleteNode(ListNode node) {
-        node.val= node.next.val;
-        node.next=node.next.next;
-        
+    // Function to count nodes of a linked list.
+    public int getCount(Node head) {
+        // code here
+        Node temp=head;
+        int c=0;
+        while(temp!=null){
+          c++;
+          temp=temp.next;
+        } return c;
     }
 }
