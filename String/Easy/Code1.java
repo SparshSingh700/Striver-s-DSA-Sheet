@@ -1,4 +1,4 @@
-//Leetcode 1021. Remove Outermost Parentheses
+//Leetcode 1021. Remove Outermost Parentheses.
 class Solution {
     public String removeOuterParentheses(String s) {
        StringBuilder S=new StringBuilder();
