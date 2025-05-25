@@ -1,4 +1,5 @@
 //Leetcode 876. Middle of the Linked List
+// The optimal solution to this quest would have been Tortoise and Hare Method but this too beat 100% other codes, i learnt about it later.
 /**
  * Definition for singly-linked list.
  * public class ListNode {
