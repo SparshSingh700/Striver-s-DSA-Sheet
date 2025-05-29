@@ -1,4 +1,4 @@
-// Leetcode 160. Intersection of Two Linked Lists
+// Leetcode 160. Intersection of Two Linked Lists.
 /**
  * Definition for singly-linked list.
  * public class ListNode {
