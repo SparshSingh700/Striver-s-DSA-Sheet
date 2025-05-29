@@ -1,4 +1,4 @@
-// Leetcode 2. Add Two Numbers
+// Leetcode 2. Add Two Numbers.
 /**
  * Definition for singly-linked list.
  * public class ListNode {
